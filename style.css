@@ -34,7 +34,8 @@ img {
   overflow: hidden;
   padding: 88px 24px 128px;
   text-align: center;
-  color: #ffffff;
+  color: #1b2d47;
+  z-index: 0;
 }
 
 .hero::before,
@@ -85,13 +86,14 @@ img {
   margin: 0;
   font-size: clamp(2.5rem, 7vw, 3.4rem);
   letter-spacing: -0.02em;
+  color: #0f2f4f;
 }
 
 .subtitle {
   margin: 16px auto 28px;
   max-width: 540px;
   font-size: 1.1rem;
-  opacity: 0.95;
+  color: rgba(16, 48, 78, 0.78);
 }
 
 .hero__tags {
@@ -104,14 +106,17 @@ img {
 .hero__tags span {
   padding: 10px 18px;
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.22);
+  background: rgba(255, 255, 255, 0.78);
   font-weight: 500;
   backdrop-filter: blur(6px);
+  color: #1b2d47;
 }
 
 main {
   max-width: 1140px;
   margin: -88px auto 0;
+  position: relative;
+  z-index: 1;
   padding: 0 24px 120px;
 }
 
@@ -134,10 +139,10 @@ section {
 }
 
 .phone-preview {
-  background: linear-gradient(180deg, rgba(15, 23, 42, 0.08), rgba(15, 23, 42, 0.02));
+  background: transparent;
   border-radius: 36px;
   padding: 24px;
-  box-shadow: var(--shadow-md);
+  box-shadow: none;
   position: relative;
 }
 
