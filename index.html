@@ -2,58 +2,158 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <title>Frases de Serenidad — App de bienestar y motivación</title>
+  <title>Frases de Serenidad - App de bienestar y motivaci&oacute;n</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Frases de Serenidad es una app de bienestar que ofrece frases motivadoras y recordatorios diarios para inspirarte cada día.">
+  <meta name="description" content="Frases de Serenidad es una app de bienestar que ofrece frases motivadoras y recordatorios diarios para inspirarte cada d&iacute;a.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" href="favicon.png">
   <link rel="apple-touch-icon" href="favicon.png">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <img src="icon_1024.png" alt="Icono de Frases de Serenidad">
-    <h1>Frases de Serenidad</h1>
-    <p class="subtitle">Frases que calman y motivan cada día 🌿</p>
+  <header class="hero">
+    <div class="hero__content">
+      <img src="icon_1024.png" alt="Icono de Frases de Serenidad">
+      <h1>Frases de Serenidad</h1>
+      <p class="subtitle">Motivaci&oacute;n colorida para iluminar tu d&iacute;a, inspirada en la app que te impulsa.</p>
+      <div class="hero__tags">
+        <span>Confianza</span>
+        <span>Gratitud</span>
+        <span>Energ&iacute;a</span>
+        <span>Serenidad</span>
+      </div>
+    </div>
   </header>
 
   <main>
-    <section>
-      <h2>Bienestar y motivación diaria</h2>
-      <p><strong>Frases de Serenidad</strong> te acompaña con palabras inspiradoras y recordatorios positivos. Mejora tu día con frases motivacionales, notificaciones suaves y un diseño pensado para transmitir calma y equilibrio.</p>
+    <section class="phrase-section">
+      <div class="phrase-layout">
+        <div class="phone-preview">
+          <div class="phone-notch"></div>
+          <div class="phone-screen" id="phrase-screen">
+            <span class="mood-label" id="phrase-label">Confianza</span>
+            <p class="phrase-text" id="phrase-text">El valor no es no tener miedo, es avanzar a pesar de &eacute;l.</p>
+            <div class="phrase-actions">
+              <button id="phrase-next" type="button">Otra frase</button>
+              <div class="phrase-dots" id="phrase-dots" aria-hidden="true"></div>
+            </div>
+          </div>
+        </div>
+        <div class="phrase-copy">
+          <h2>Un impulso distinto cada vez</h2>
+          <p>La versi&oacute;n web captura la experiencia alegre de la app: transiciones suaves, gradientes brillantes y frases motivadoras que van rotando. Respira profundo, deja que el color te envuelva y pulsa para descubrir nuevas palabras de apoyo.</p>
+          <ul class="phrase-benefits">
+            <li>Selecci&oacute;n curada de frases inspiradoras</li>
+            <li>Cuatro estados de &aacute;nimo que se alternan autom&aacute;ticamente</li>
+            <li>Animaci&oacute;n suave que mantiene la atenci&oacute;n en el mensaje</li>
+          </ul>
+        </div>
+      </div>
     </section>
 
-    <section>
-      <h2>Características</h2>
-      <ul>
-        <li>🌸 Frases nuevas cada día</li>
-        <li>💜 Guarda tus favoritas</li>
-        <li>🕊️ Notificaciones personalizables</li>
-        <li>🧘‍♀️ Diseño relajante y minimalista</li>
-        <li>🌍 Disponible en español e inglés</li>
-      </ul>
+    <section class="features">
+      <h2>Lo que encontrar&aacute;s en la app</h2>
+      <div class="feature-grid">
+        <article class="feature-card feature-card--green">
+          <h3>Confianza</h3>
+          <p>Frases que te recuerdan tu fuerza interior y te animan a dar el siguiente paso.</p>
+        </article>
+        <article class="feature-card feature-card--yellow">
+          <h3>Gratitud</h3>
+          <p>Peque&ntilde;as reflexiones para valorar lo que ya tienes y sonre&iacute;r m&aacute;s a menudo.</p>
+        </article>
+        <article class="feature-card feature-card--coral">
+          <h3>Energ&iacute;a</h3>
+          <p>Mensajes chispeantes para activar cuerpo y mente cuando necesitas ese empuj&oacute;n.</p>
+        </article>
+        <article class="feature-card feature-card--blue">
+          <h3>Serenidad</h3>
+          <p>Recordatorios suaves que rebajan el ritmo y traen calma incluso en d&iacute;as agitados.</p>
+        </article>
+      </div>
     </section>
 
-    <section>
-      <h2>Descarga la app</h2>
-      <p>Próximamente disponible en Google Play.</p>
-      <!-- <a class="btn" href="#">Ir a Google Play</a> -->
+    <section class="cta">
+      <h2>Pr&oacute;ximamente en Google Play</h2>
+      <p>Estamos preparando el lanzamiento para que puedas disfrutar de Frases de Serenidad en tu m&oacute;vil. Suscr&iacute;bete a nuestras novedades y recibe la notificaci&oacute;n en cuanto est&eacute; disponible.</p>
+      <a class="btn" href="mailto:hola@demotass.dev?subject=Aviso%20de%20lanzamiento%20Frases%20de%20Serenidad">Quiero enterarme</a>
     </section>
 
-    <section>
-      <h2>Documentos legales</h2>
-      <p>Puedes consultar la política de privacidad y los términos de uso:</p>
-      <div class="links">
-        <a href="privacy-policy.html">Política de Privacidad</a> |
-        <a href="terms.html">Términos de Uso</a> |
-        <a href="en/privacy-policy.html">Privacy Policy (EN)</a> |
+    <section class="legal">
+      <h2>Documentaci&oacute;n legal</h2>
+      <p>Puedes consultar la pol&iacute;tica de privacidad y los t&eacute;rminos de uso:</p>
+      <div class="legal-links">
+        <a href="privacy-policy.html">Pol&iacute;tica de Privacidad</a>
+        <a href="terms.html">T&eacute;rminos de Uso</a>
+        <a href="en/privacy-policy.html">Privacy Policy (EN)</a>
         <a href="en/terms.html">Terms of Use (EN)</a>
       </div>
     </section>
   </main>
 
-  <footer>© <span id="year"></span> Demotass.Dev</footer>
+  <footer>&copy; <span id="year"></span> Demotass.Dev</footer>
 
   <script>
+    const phrases = [
+      {
+        mood: 'Confianza',
+        text: 'El valor no es no tener miedo, es avanzar a pesar de &eacute;l.',
+        colors: ['#66F077', '#2AC86B']
+      },
+      {
+        mood: 'Gratitud',
+        text: 'La gratitud convierte la rutina en un acto de amor.',
+        colors: ['#FFD85B', '#FFB347']
+      },
+      {
+        mood: 'Energ&iacute;a',
+        text: 'No esperes la inspiraci&oacute;n: cr&eacute;ala con tu acci&oacute;n.',
+        colors: ['#FF8A82', '#FF5263']
+      },
+      {
+        mood: 'Serenidad',
+        text: 'La serenidad te recuerda que ninguna tormenta dura para siempre.',
+        colors: ['#6FDBFF', '#56B5F5']
+      }
+    ];
+
+    const screen = document.getElementById('phrase-screen');
+    const label = document.getElementById('phrase-label');
+    const text = document.getElementById('phrase-text');
+    const nextButton = document.getElementById('phrase-next');
+    const dots = document.getElementById('phrase-dots');
+
+    let activeIndex = 0;
+
+    function renderDots() {
+      dots.innerHTML = phrases.map((_, index) => `<span class="${index === activeIndex ? 'dot dot--active' : 'dot'}"></span>`).join('');
+    }
+
+    function showPhrase(index) {
+      const item = phrases[index];
+      screen.style.setProperty('--gradient-start', item.colors[0]);
+      screen.style.setProperty('--gradient-end', item.colors[1]);
+      label.innerHTML = item.mood;
+      text.innerHTML = item.text;
+
+      screen.classList.remove('is-transitioning');
+      void screen.offsetWidth;
+      screen.classList.add('is-transitioning');
+
+      renderDots();
+    }
+
+    function nextPhrase() {
+      activeIndex = (activeIndex + 1) % phrases.length;
+      showPhrase(activeIndex);
+    }
+
+    nextButton.addEventListener('click', nextPhrase);
+    setInterval(nextPhrase, 6000);
+
+    showPhrase(activeIndex);
     document.getElementById('year').textContent = new Date().getFullYear();
   </script>
 </body>
