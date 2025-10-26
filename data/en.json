@@ -1,0 +1,112 @@
+{
+  "categories": [
+    {
+      "id": "energia",
+      "title": "Energy",
+      "color": "#FF6F61",
+      "phrases": [
+        "Today is the perfect day to unleash your energy and inspire the world.",
+        "Your passion is the spark that ignites change.",
+        "Take a deep breath, feel the strength in your chest, and move forward with purpose.",
+        "You are pure creative energy; let your ideas light the way.",
+        "Move with intention: every step awakens your inner power.",
+        "Vitality is born when your actions follow your heart.",
+        "Awaken your body, ignite your mind, and vibrate high.",
+        "Every sunrise brings a new chance to shine.",
+        "Your positive energy can transform any environment.",
+        "Motivation grows from small, consistent acts of effort.",
+        "Connect with the life force that flows within you.",
+        "Acting with enthusiasm ignites your soul.",
+        "Movement is the medicine your spirit celebrates.",
+        "Don't wait for inspiration—create it through action.",
+        "The energy you give to the world always returns multiplied.",
+        "Feel the inner fire that drives you to create and move forward.",
+        "You are an endless source of energy and purpose.",
+        "Each determined step renews your inner strength.",
+        "Let your energy flow freely—the world needs it.",
+        "Your power lies in moving, daring, and starting today."
+      ]
+    },
+    {
+      "id": "serenidad",
+      "title": "Serenity",
+      "color": "#5AC8FA",
+      "phrases": [
+        "Inner stillness is your refuge; dwell in it and recharge your calm.",
+        "Each breath brings you back to the present where everything is in balance.",
+        "Allow yourself to flow gently, like clear water that embraces everything.",
+        "Serenity reminds you that no storm lasts forever.",
+        "Close your eyes, release the noise, and listen to your peace.",
+        "Everything is well when you choose to see it with calm.",
+        "Slow breathing is your way back to center.",
+        "Calm is not the absence of motion, but balance within it.",
+        "Your inner peace depends not on the world, but on your perspective.",
+        "Let go of what weighs you down, keep what brings light.",
+        "Each pause is an act of love toward yourself.",
+        "Peace arrives when you accept the moment as it is.",
+        "Walk slowly; serenity walks with you.",
+        "You don't need to control everything—just flow and trust.",
+        "In silence, the clearest answers appear.",
+        "Serene is not who feels nothing, but who breathes and understands.",
+        "Let calm be your strength, not your weakness.",
+        "Serenity blooms in the mind that allows itself to rest.",
+        "When your mind quiets, your soul expands.",
+        "Find peace in simplicity: a breath, a smile, a moment."
+      ]
+    },
+    {
+      "id": "confianza",
+      "title": "Confidence",
+      "color": "#4CD964",
+      "phrases": [
+        "Trust your voice; the world needs exactly what you bring.",
+        "Your story has prepared you for this moment—step boldly.",
+        "Lift your gaze: every intentional step is a victory of your own.",
+        "Your mind is clear, your decisions firm; keep building.",
+        "You are capable of more than you imagine.",
+        "Every mistake was a teacher guiding you closer to success.",
+        "Your confidence is built from within, not from approval.",
+        "Believe in your process, even when results are unseen.",
+        "Courage is not the absence of fear but moving despite it.",
+        "Your intuition is a compass that rarely fails.",
+        "You've overcome so much—why doubt now?",
+        "Confidence grows each time you choose to act.",
+        "Faith in yourself opens doors that doubt keeps closed.",
+        "Follow your own pace; authenticity needs no rush.",
+        "Walking with confidence is an act of self-love.",
+        "Your inner power is stronger than any obstacle.",
+        "Seek no validation; you are already enough.",
+        "Every heart-led decision strengthens your certainty.",
+        "Trust—life aligns when you do.",
+        "You are living proof that believing in yourself changes everything."
+      ]
+    },
+    {
+      "id": "gratitud",
+      "title": "Gratitude",
+      "color": "#FFCC00",
+      "phrases": [
+        "Be grateful for your path; even the curves revealed treasures.",
+        "Every person who crosses your day is a chance to love.",
+        "Celebrating what you already have opens space for what you dream of.",
+        "Gratitude turns the everyday into something extraordinary.",
+        "Today, give thanks for who you were, who you are, and who you are becoming.",
+        "Every small gesture is a hidden blessing.",
+        "Life expands when you recognize the good within it.",
+        "Thank the past for teaching you, the present for holding you.",
+        "Your heart becomes lighter when it gives thanks without measure.",
+        "Gratitude is not settling—it’s seeing abundance.",
+        "Each sunrise is a gift worth celebrating.",
+        "Even challenges carry seeds of growth.",
+        "Gratitude turns routine into an act of love.",
+        "Give thanks for what was, even if it hurt—it made you wiser.",
+        "To be grateful is to see beauty in the simple.",
+        "When you give thanks, everything else finds its place.",
+        "Gratitude is an energy that multiplies the good.",
+        "Today I choose to be thankful, because it changes my view.",
+        "Thanks for what arrives, and for what I don’t yet understand.",
+        "Giving thanks opens your soul to new blessings."
+      ]
+    }
+  ]
+}
