@@ -9,13 +9,13 @@
       "path": "https://demotass.github.io/frasesdeserenidad/data/en.json",
       "version": "2025-10-26-en"
     },
-    "ko": {
-      "path": "https://demotass.github.io/frasesdeserenidad/data/ko.json",
-      "version": "2025-10-26-ko"
-    },
     "ja": {
       "path": "https://demotass.github.io/frasesdeserenidad/data/ja.json",
       "version": "2025-10-26-ja"
+    },
+    "ko": {
+      "path": "https://demotass.github.io/frasesdeserenidad/data/ko.json",
+      "version": "2025-10-26-ko"
     }
   }
 }

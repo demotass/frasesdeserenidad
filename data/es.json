@@ -1,112 +1,129 @@
-{
+﻿{
   "categories": [
     {
       "id": "energia",
-      "title": "Energía",
+      "titles": {
+        "es": "Energía"
+      },
       "color": "#FF6F61",
-      "phrases": [
-        "Hoy es el día perfecto para desatar tu energía y contagiar al mundo.",
-        "Tu pasión es la chispa que prende la luz del cambio.",
-        "Respira profundo, siente la fuerza en tu pecho y avanza con decisión.",
-        "Eres pura energía creativa, deja que tus ideas iluminen el camino.",
-        "Muévete con intención: cada paso despierta tu poder interior.",
-        "La vitalidad nace cuando tus acciones siguen a tu corazón.",
-        "Despierta tu cuerpo, enciende tu mente y vibra alto.",
-        "Cada amanecer trae una nueva oportunidad para brillar.",
-        "Tu energía positiva puede transformar cualquier entorno.",
-        "La motivación se construye con pequeños actos de impulso constante.",
-        "Conecta con la fuerza de la vida que habita en ti.",
-        "Actuar con entusiasmo es encender tu alma.",
-        "El movimiento es la medicina que tu espíritu celebra.",
-        "No esperes la inspiración: créala con tu acción.",
-        "La energía que entregas al mundo siempre regresa multiplicada.",
-        "Siente el fuego interno que te impulsa a crear y avanzar.",
-        "Eres fuente inagotable de energía y propósito.",
-        "Cada paso decidido renueva tu fuerza interior.",
-        "Permite que tu energía fluya, no la encierres: el mundo la necesita.",
-        "Tu poder está en moverte, en atreverte, en comenzar hoy."
-      ]
+      "phrases": {
+        "es": [
+          "Hoy es el día perfecto para desatar tu energía y contagiar al mundo.",
+          "Tu pasión es la chispa que prende la luz del cambio.",
+          "Respira profundo, siente la fuerza en tu pecho y avanza con decisión.",
+          "Eres pura energía creativa, deja que tus ideas iluminen el camino.",
+          "Muévete con intención: cada paso despierta tu poder interior.",
+          "La vitalidad nace cuando tus acciones siguen a tu corazón.",
+          "Despierta tu cuerpo, enciende tu mente y vibra alto.",
+          "Cada amanecer trae una nueva oportunidad para brillar.",
+          "Tu energía positiva puede transformar cualquier entorno.",
+          "La motivación se construye con pequeños actos de impulso constante.",
+          "Conecta con la fuerza de la vida que habita en ti.",
+          "Actuar con entusiasmo es encender tu alma.",
+          "El movimiento es la medicina que tu espíritu celebra.",
+          "No esperes la inspiración: créala con tu acción.",
+          "La energía que entregas al mundo siempre regresa multiplicada.",
+          "Siente el fuego interno que te impulsa a crear y avanzar.",
+          "Eres fuente inagotable de energía y propósito.",
+          "Cada paso decidido renueva tu fuerza interior.",
+          "Permite que tu energía fluya, no la encierres: el mundo la necesita.",
+          "Tu poder está en moverte, en atreverte, en comenzar hoy."
+        ]
+      }
     },
     {
       "id": "serenidad",
-      "title": "Serenidad",
+      "titles": {
+        "es": "Serenidad"
+      },
       "color": "#5AC8FA",
-      "phrases": [
-        "El silencio interior es tu refugio, habítalo y recarga tu calma.",
-        "Cada respiración te devuelve al presente; ahí todo está en equilibrio.",
-        "Permítete fluir con suavidad, como agua clara que todo lo abraza.",
-        "La serenidad te recuerda que ninguna tormenta dura para siempre.",
-        "Cierra los ojos, suelta el ruido y escucha tu paz.",
-        "Todo está bien cuando eliges ver con tranquilidad.",
-        "Respirar lento es volver a tu centro.",
-        "La calma no es ausencia de movimiento, es equilibrio en medio de él.",
-        "Tu paz interior no depende del mundo, sino de tu mirada.",
-        "Suelta lo que pesa, quédate con lo que da luz.",
-        "Cada pausa es un acto de amor hacia ti mismo.",
-        "El sosiego llega cuando aceptas el momento tal como es.",
-        "Camina despacio, la serenidad te acompaña.",
-        "No necesitas controlar todo, solo fluir y confiar.",
-        "En el silencio se revelan las respuestas más claras.",
-        "Sereno no es quien no siente, sino quien respira y comprende.",
-        "Deja que la calma sea tu fuerza, no tu debilidad.",
-        "La serenidad florece en la mente que se permite descansar.",
-        "Cuando tu mente se aquieta, el alma se expande.",
-        "Encuentra tu paz en lo simple: una respiración, una sonrisa, un instante."
-      ]
+      "phrases": {
+        "es": [
+          "El silencio interior es tu refugio, habítalo y recarga tu calma.",
+          "Cada respiración te devuelve al presente; ahí todo está en equilibrio.",
+          "Permítete fluir con suavidad, como agua clara que todo lo abraza.",
+          "La serenidad te recuerda que ninguna tormenta dura para siempre.",
+          "Cierra los ojos, suelta el ruido y escucha tu paz.",
+          "Todo está bien cuando eliges ver con tranquilidad.",
+          "Respirar lento es volver a tu centro.",
+          "La calma no es ausencia de movimiento, es equilibrio en medio de él.",
+          "Tu paz interior no depende del mundo, sino de tu mirada.",
+          "Suelta lo que pesa, quédate con lo que da luz.",
+          "Cada pausa es un acto de amor hacia ti mismo.",
+          "El sosiego llega cuando aceptas el momento tal como es.",
+          "Camina despacio, la serenidad te acompaña.",
+          "No necesitas controlar todo, solo fluir y confiar.",
+          "En el silencio se revelan las respuestas más claras.",
+          "Sereno no es quien no siente, sino quien respira y comprende.",
+          "Deja que la calma sea tu fuerza, no tu debilidad.",
+          "La serenidad florece en la mente que se permite descansar.",
+          "Cuando tu mente se aquieta, el alma se expande.",
+          "Encuentra tu paz en lo simple: una respiración, una sonrisa, un instante."
+        ]
+      }
     },
     {
       "id": "confianza",
-      "title": "Confianza",
+      "titles": {
+        "es": "Confianza"
+      },
       "color": "#4CD964",
-      "phrases": [
-        "Confía en tu voz; el mundo necesita exactamente lo que traes.",
-        "Tu historia te ha preparado para este instante; pisa fuerte.",
-        "Alza la mirada: cada paso consciente es una victoria propia.",
-        "Tu mente es clara, tus decisiones firmes; sigue construyendo.",
-        "Eres capaz de más de lo que imaginas.",
-        "Cada error fue un maestro que te acercó al acierto.",
-        "Tu seguridad no depende de las circunstancias, sino de tu fe en ti.",
-        "Cree en tu proceso, incluso cuando aún no ves el resultado.",
-        "El valor no es no tener miedo, es avanzar a pesar de él.",
-        "Tu intuición es una brújula que rara vez se equivoca.",
-        "Has superado tanto, ¿por qué dudar ahora?",
-        "Tu confianza crece cada vez que eliges actuar.",
-        "La fe en ti mismo abre puertas que la duda cierra.",
-        "Sigue tu ritmo: lo auténtico no necesita prisa.",
-        "Caminar con confianza es un acto de amor propio.",
-        "Tu poder interior es más fuerte que cualquier obstáculo.",
-        "No busques validación externa: ya eres suficiente.",
-        "Cada decisión tomada con el corazón fortalece tu certeza.",
-        "Confía: la vida se alinea cuando tú lo haces primero.",
-        "Eres la prueba viva de que creer en uno mismo transforma todo."
-      ]
+      "phrases": {
+        "es": [
+          "Confía en tu voz; el mundo necesita exactamente lo que traes.",
+          "Tu historia te ha preparado para este instante; pisa fuerte.",
+          "Alza la mirada: cada paso consciente es una victoria propia.",
+          "Tu mente es clara, tus decisiones firmes; sigue construyendo.",
+          "Eres capaz de más de lo que imaginas.",
+          "Cada error fue un maestro que te acercó al acierto.",
+          "Tu seguridad no depende de las circunstancias, sino de tu fe en ti.",
+          "Cree en tu proceso, incluso cuando aún no ves el resultado.",
+          "El valor no es no tener miedo, es avanzar a pesar de él.",
+          "Tu intuición es una brújula que rara vez se equivoca.",
+          "Has superado tanto, ¿por qué dudar ahora?",
+          "Tu confianza crece cada vez que eliges actuar.",
+          "La fe en ti mismo abre puertas que la duda cierra.",
+          "Sigue tu ritmo: lo auténtico no necesita prisa.",
+          "Caminar con confianza es un acto de amor propio.",
+          "Tu poder interior es más fuerte que cualquier obstáculo.",
+          "No busques validación externa: ya eres suficiente.",
+          "Cada decisión tomada con el corazón fortalece tu certeza.",
+          "Confía: la vida se alinea cuando tú lo haces primero.",
+          "Eres la prueba viva de que creer en uno mismo transforma todo."
+        ]
+      }
     },
     {
       "id": "gratitud",
-      "title": "Gratitud",
+      "titles": {
+        "es": "Gratitud"
+      },
       "color": "#FFCC00",
-      "phrases": [
-        "Agradece tu camino; incluso las curvas te mostraron tesoros.",
-        "Cada persona que cruza tu día es una oportunidad para amar.",
-        "Celebrar lo que ya tienes abre espacio a lo que sueñas.",
-        "La gratitud transforma lo cotidiano en algo extraordinario.",
-        "Hoy agradezco por lo que fui, lo que soy y lo que aún seré.",
-        "Cada pequeño gesto es una bendición disfrazada.",
-        "La vida se expande cuando reconoces lo bueno en ella.",
-        "Gracias al pasado por enseñarme, al presente por sostenerme.",
-        "Tu corazón se vuelve liviano cuando agradece sin medida.",
-        "Agradecer no es conformarse, es reconocer la abundancia.",
-        "Cada amanecer es un regalo que merece ser celebrado.",
-        "Incluso los desafíos traen semillas de crecimiento.",
-        "La gratitud convierte la rutina en un acto de amor.",
-        "Da las gracias por lo que fue, incluso si dolió: te hizo más sabio.",
-        "Agradecer es el arte de ver la belleza en lo simple.",
-        "Cuando agradeces, todo lo demás encuentra su lugar.",
-        "La gratitud es una energía que multiplica lo bueno.",
-        "Hoy elijo agradecer, porque eso cambia mi mirada.",
-        "Gracias por lo que llega, y por lo que aún no entiendo.",
-        "Agradecer abre el alma a nuevas bendiciones."
-      ]
+      "phrases": {
+        "es": [
+          "Agradece tu camino; incluso las curvas te mostraron tesoros.",
+          "Cada persona que cruza tu día es una oportunidad para amar.",
+          "Celebrar lo que ya tienes abre espacio a lo que sueñas.",
+          "La gratitud transforma lo cotidiano en algo extraordinario.",
+          "Hoy agradezco por lo que fui, lo que soy y lo que aún seré.",
+          "Cada pequeño gesto es una bendición disfrazada.",
+          "La vida se expande cuando reconoces lo bueno en ella.",
+          "Gracias al pasado por enseñarme, al presente por sostenerme.",
+          "Tu corazón se vuelve liviano cuando agradece sin medida.",
+          "Agradecer no es conformarse, es reconocer la abundancia.",
+          "Cada amanecer es un regalo que merece ser celebrado.",
+          "Incluso los desafíos traen semillas de crecimiento.",
+          "La gratitud convierte la rutina en un acto de amor.",
+          "Da las gracias por lo que fue, incluso si dolió: te hizo más sabio.",
+          "Agradecer es el arte de ver la belleza en lo simple.",
+          "Cuando agradeces, todo lo demás encuentra su lugar.",
+          "La gratitud es una energía que multiplica lo bueno.",
+          "Hoy elijo agradecer, porque eso cambia mi mirada.",
+          "Gracias por lo que llega, y por lo que aún no entiendo.",
+          "Agradecer abre el alma a nuevas bendiciones."
+        ]
+      }
     }
   ]
 }
+
