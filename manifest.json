@@ -1,9 +1,9 @@
 {
-  "content_version": "2025-10-26",
+  "content_version": "2025-10-26b",
   "locales": {
     "es": {
       "path": "https://demotass.github.io/frasesdeserenidad/data/es.json",
-      "version": "2025-10-26-es"
+      "version": "2025-10-26b-es"
     },
     "en": {
       "path": "https://demotass.github.io/frasesdeserenidad/data/en.json",
