@@ -17,5 +17,23 @@
       "path": "https://demotass.github.io/frasesdeserenidad/data/ko.json",
       "version": "2025-10-26-ko"
     }
+  },
+  "backgrounds": {
+    "energia": {
+      "path": "https://demotass.github.io/frasesdeserenidad/backgrounds/energia.jpg",
+      "version": "2025-11-13-energia"
+    },
+    "serenidad": {
+      "path": "https://demotass.github.io/frasesdeserenidad/backgrounds/serenidad.jpg",
+      "version": "2025-11-13-serenidad"
+    },
+    "confianza": {
+      "path": "https://demotass.github.io/frasesdeserenidad/backgrounds/confianza.jpg",
+      "version": "2025-11-13-confianza"
+    },
+    "gratitud": {
+      "path": "https://demotass.github.io/frasesdeserenidad/backgrounds/gratitud.jpg",
+      "version": "2025-11-13-gratitud"
+    }
   }
 }
