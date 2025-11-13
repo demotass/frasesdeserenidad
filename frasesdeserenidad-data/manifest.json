@@ -20,19 +20,19 @@
   },
   "backgrounds": {
     "energia": {
-      "path": "https://demotass.github.io/frasesdeserenidad/backgrounds/energia.jpg",
+      "path": "https://demotass.github.io/frasesdeserenidad/frasesdeserenidad-data/backgrounds/energia.jpg",
       "version": "2025-11-13-energia"
     },
     "serenidad": {
-      "path": "https://demotass.github.io/frasesdeserenidad/backgrounds/serenidad.jpg",
+      "path": "https://demotass.github.io/frasesdeserenidad/frasesdeserenidad-data/backgrounds/serenidad.jpg",
       "version": "2025-11-13-serenidad"
     },
     "confianza": {
-      "path": "https://demotass.github.io/frasesdeserenidad/backgrounds/confianza.jpg",
+      "path": "https://demotass.github.io/frasesdeserenidad/frasesdeserenidad-data/backgrounds/confianza.jpg",
       "version": "2025-11-13-confianza"
     },
     "gratitud": {
-      "path": "https://demotass.github.io/frasesdeserenidad/backgrounds/gratitud.jpg",
+      "path": "https://demotass.github.io/frasesdeserenidad/frasesdeserenidad-data/backgrounds/gratitud.jpg",
       "version": "2025-11-13-gratitud"
     }
   }
