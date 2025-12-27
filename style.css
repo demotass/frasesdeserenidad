@@ -432,64 +432,75 @@ main {
   color: var(--muted);
 }
 
-.mood-grid {
+.feature-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 24px;
 }
 
-.mood-card {
+.feature-card {
+  --accent: #11161f;
   position: relative;
-  min-height: 240px;
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  overflow: hidden;
   padding: 28px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  color: #fff;
-  box-shadow: var(--shadow-md);
-  background-size: cover;
-  background-position: center;
+  box-shadow: var(--shadow-soft);
+  overflow: hidden;
 }
 
-.mood-card::before {
+.feature-card::before {
   content: '';
   position: absolute;
-  inset: 0;
-  background: linear-gradient(180deg, rgba(17, 22, 31, 0.05), rgba(17, 22, 31, 0.8));
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(120deg, var(--accent), rgba(255, 255, 255, 0));
 }
 
-.mood-card h3,
-.mood-card p {
+.feature-card::after {
+  content: '';
+  position: absolute;
+  right: -30px;
+  bottom: -30px;
+  width: 120px;
+  height: 120px;
+  border-radius: 999px;
+  background: var(--accent);
+  opacity: 0.12;
+}
+
+.feature-card h3,
+.feature-card p {
   position: relative;
   z-index: 1;
   margin: 0;
 }
 
-.mood-card h3 {
-  font-size: 1.6rem;
-  margin-bottom: 8px;
+.feature-card h3 {
+  font-size: 1.45rem;
+  margin-bottom: 12px;
 }
 
-.mood-card p {
-  color: rgba(255, 255, 255, 0.85);
+.feature-card p {
+  color: var(--muted);
 }
 
-.mood-card--confianza {
-  background-image: url('frasesdeserenidad-data/backgrounds/confianza.jpg');
+.feature-card--motivacion {
+  --accent: #70e4a3;
 }
 
-.mood-card--gratitud {
-  background-image: url('frasesdeserenidad-data/backgrounds/gratitud.jpg');
+.feature-card--serenidad {
+  --accent: #7ec6f5;
 }
 
-.mood-card--energia {
-  background-image: url('frasesdeserenidad-data/backgrounds/energia.jpg');
+.feature-card--recordatorios {
+  --accent: #f2c66a;
 }
 
-.mood-card--serenidad {
-  background-image: url('frasesdeserenidad-data/backgrounds/serenidad.jpg');
+.feature-card--gratis {
+  --accent: #f38f82;
 }
 
 .flow-grid {
@@ -608,7 +619,7 @@ footer {
     grid-template-columns: 1fr;
   }
 
-  .mood-grid {
+  .feature-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -658,7 +669,7 @@ footer {
     padding: 28px 22px;
   }
 
-  .mood-grid {
+  .feature-grid {
     grid-template-columns: 1fr;
   }
 }
