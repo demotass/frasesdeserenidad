@@ -2,38 +2,61 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <title>Frases de Serenidad - App de bienestar y motivaci&oacute;n</title>
+  <title>Frases de Serenidad - App con fondos inspiradores</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Frases de Serenidad es una app de bienestar que ofrece frases motivadoras y recordatorios diarios para inspirarte cada d&iacute;a.">
+  <meta name="description" content="Frases de Serenidad es una app de bienestar con frases diarias y fondos visuales que acompa&ntilde;an cada estado de &aacute;nimo.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" href="favicon.png">
   <link rel="apple-touch-icon" href="favicon.png">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="hero">
-    <div class="hero__content">
-      <img src="icon_1024.png" alt="Icono de Frases de Serenidad">
+    <div class="hero__copy">
+      <div class="hero__brand">
+        <img src="icon_1024.png" alt="Icono de Frases de Serenidad">
+        <span class="eyebrow">App de bienestar y motivaci&oacute;n</span>
+      </div>
       <h1>Frases de Serenidad</h1>
-      <p class="subtitle">Motivaci&oacute;n colorida para iluminar tu d&iacute;a, inspirada en la app que te impulsa.</p>
-      <div class="hero__tags">
-        <span>Confianza</span>
-        <span>Gratitud</span>
-        <span>Energ&iacute;a</span>
-        <span>Serenidad</span>
+      <p class="lead">Frases diarias, fondos reales y una atm&oacute;sfera cuidada para acompa&ntilde;arte en cada momento. Dise&ntilde;ada para que respires, te centres y vuelvas a tu calma.</p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="mailto:demotass.dev@gmail.com?subject=Aviso%20de%20lanzamiento%20Frases%20de%20Serenidad">Quiero la app</a>
+        <a class="btn btn--ghost" href="#moods">Ver los fondos</a>
+      </div>
+      <div class="hero__meta">
+        <div class="meta-card">
+          <span class="meta-card__label">Fondos</span>
+          <span class="meta-card__value">4 paisajes originales</span>
+        </div>
+        <div class="meta-card">
+          <span class="meta-card__label">Ritmo</span>
+          <span class="meta-card__value">Rotaci&oacute;n suave</span>
+        </div>
+        <div class="meta-card">
+          <span class="meta-card__label">Enfoque</span>
+          <span class="meta-card__value">Lectura sin distracciones</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero__visual">
+      <div class="collage">
+        <div class="collage__card collage__card--confianza"><span>Confianza</span></div>
+        <div class="collage__card collage__card--gratitud"><span>Gratitud</span></div>
+        <div class="collage__card collage__card--energia"><span>Energ&iacute;a</span></div>
+        <div class="collage__card collage__card--serenidad"><span>Serenidad</span></div>
       </div>
     </div>
   </header>
 
   <main>
-    <section class="phrase-section">
-      <div class="phrase-layout">
-        <div class="phone-preview">
-          <div class="phone-notch"></div>
-          <div class="phone-screen" id="phrase-screen">
-            <span class="mood-label" id="phrase-label">Confianza</span>
+    <section class="panel app-preview" id="preview">
+      <div class="preview-grid">
+        <div class="phone">
+          <div class="phone__status"></div>
+          <div class="phone__screen" id="phrase-screen">
+            <span class="mood-chip" id="phrase-label">Confianza</span>
             <p class="phrase-text" id="phrase-text">El valor no es no tener miedo, es avanzar a pesar de &eacute;l.</p>
             <div class="phrase-actions">
               <button id="phrase-next" type="button">Otra frase</button>
@@ -41,47 +64,76 @@
             </div>
           </div>
         </div>
-        <div class="phrase-copy">
-          <h2>Un impulso distinto cada vez</h2>
-          <p>La versi&oacute;n web captura la experiencia alegre de la app: transiciones suaves, gradientes brillantes y frases motivadoras que van rotando. Respira profundo, deja que el color te envuelva y pulsa para descubrir nuevas palabras de apoyo.</p>
-          <ul class="phrase-benefits">
-            <li>Selecci&oacute;n curada de frases inspiradoras</li>
-            <li>Cuatro estados de &aacute;nimo que se alternan autom&aacute;ticamente</li>
-            <li>Animaci&oacute;n suave que mantiene la atenci&oacute;n en el mensaje</li>
+        <div class="preview-copy">
+          <h2>El fondo acompa&ntilde;a tu estado de &aacute;nimo</h2>
+          <p>Cada frase llega sobre los paisajes reales de la app. Los tonos, la luz y la textura se ajustan para reforzar el mensaje y crear un momento de pausa intencional.</p>
+          <ul class="bullet-list">
+            <li>Fondos fotogr&aacute;ficos de alta calidad</li>
+            <li>Transiciones suaves que mantienen el foco</li>
+            <li>Frases curadas para respirar y continuar</li>
           </ul>
         </div>
       </div>
     </section>
 
-    <section class="features">
-      <h2>Lo que encontrar&aacute;s en la app</h2>
-      <div class="feature-grid">
-        <article class="feature-card feature-card--green">
+    <section class="panel moods" id="moods">
+      <div class="section-head">
+        <h2>Fondos que respiran contigo</h2>
+        <p>La identidad visual de la app nace de estos cuatro paisajes. Cada uno marca un tono emocional distinto y acompa&ntilde;a la lectura.</p>
+      </div>
+      <div class="mood-grid">
+        <article class="mood-card mood-card--confianza">
           <h3>Confianza</h3>
-          <p>Frases que te recuerdan tu fuerza interior y te animan a dar el siguiente paso.</p>
+          <p>Texturas luminosas para recordarte que siempre puedes dar un paso m&aacute;s.</p>
         </article>
-        <article class="feature-card feature-card--yellow">
+        <article class="mood-card mood-card--gratitud">
           <h3>Gratitud</h3>
-          <p>Peque&ntilde;as reflexiones para valorar lo que ya tienes y sonre&iacute;r m&aacute;s a menudo.</p>
+          <p>Colores c&aacute;lidos que invitan a valorar lo cotidiano.</p>
         </article>
-        <article class="feature-card feature-card--coral">
+        <article class="mood-card mood-card--energia">
           <h3>Energ&iacute;a</h3>
-          <p>Mensajes chispeantes para activar cuerpo y mente cuando necesitas ese empuj&oacute;n.</p>
+          <p>Tonos vibrantes para activar cuerpo y mente cuando lo necesitas.</p>
         </article>
-        <article class="feature-card feature-card--blue">
+        <article class="mood-card mood-card--serenidad">
           <h3>Serenidad</h3>
-          <p>Recordatorios suaves que rebajan el ritmo y traen calma incluso en d&iacute;as agitados.</p>
+          <p>Un paisaje suave para bajar el ritmo y respirar con calma.</p>
         </article>
       </div>
     </section>
 
-    <section class="cta">
-      <h2>Pr&oacute;ximamente en Google Play</h2>
-      <p>Estamos preparando el lanzamiento para que puedas disfrutar de Frases de Serenidad en tu m&oacute;vil. Suscr&iacute;bete a nuestras novedades y recibe la notificaci&oacute;n en cuanto est&eacute; disponible.</p>
-      <a class="btn" href="mailto:demotass.dev@gmail.com?subject=Aviso%20de%20lanzamiento%20Frases%20de%20Serenidad">Quiero enterarme</a>
+    <section class="panel flow" id="flow">
+      <div class="section-head">
+        <h2>Una experiencia simple y cuidada</h2>
+        <p>Todo est&aacute; pensado para que la frase sea el centro. Sin ruido, sin exceso y con el fondo adecuado.</p>
+      </div>
+      <div class="flow-grid">
+        <article class="flow-card">
+          <span class="flow-card__step">01</span>
+          <h3>Elige tu ritmo</h3>
+          <p>Recibe una frase diaria o cambia manualmente cuando quieras.</p>
+        </article>
+        <article class="flow-card">
+          <span class="flow-card__step">02</span>
+          <h3>Siente el fondo</h3>
+          <p>El paisaje acompa&ntilde;a cada mensaje y crea un espacio visual propio.</p>
+        </article>
+        <article class="flow-card">
+          <span class="flow-card__step">03</span>
+          <h3>Guarda y comparte</h3>
+          <p>Conserva tus frases favoritas y env&iacute;alas a quien las necesite.</p>
+        </article>
+      </div>
     </section>
 
-    <section class="legal">
+    <section class="panel cta">
+      <div class="cta__content">
+        <h2>Pr&oacute;ximamente en Google Play</h2>
+        <p>Estamos preparando el lanzamiento para que puedas disfrutar de Frases de Serenidad en tu m&oacute;vil. Deja tu correo y te avisamos en cuanto est&eacute; disponible.</p>
+      </div>
+      <a class="btn btn--light" href="mailto:demotass.dev@gmail.com?subject=Aviso%20de%20lanzamiento%20Frases%20de%20Serenidad">Avisadme</a>
+    </section>
+
+    <section class="panel legal">
       <h2>Documentaci&oacute;n legal</h2>
       <p>Puedes consultar la pol&iacute;tica de privacidad y los t&eacute;rminos de uso:</p>
       <div class="legal-links">
@@ -100,22 +152,26 @@
       {
         mood: 'Confianza',
         text: 'El valor no es no tener miedo, es avanzar a pesar de &eacute;l.',
-        colors: ['#66F077', '#2AC86B']
+        image: 'frasesdeserenidad-data/backgrounds/confianza.jpg',
+        accent: '#70E4A3'
       },
       {
         mood: 'Gratitud',
         text: 'La gratitud convierte la rutina en un acto de amor.',
-        colors: ['#FFD85B', '#FFB347']
+        image: 'frasesdeserenidad-data/backgrounds/gratitud.jpg',
+        accent: '#F2C66A'
       },
       {
         mood: 'Energ&iacute;a',
         text: 'No esperes la inspiraci&oacute;n: cr&eacute;ala con tu acci&oacute;n.',
-        colors: ['#FF8A82', '#FF5263']
+        image: 'frasesdeserenidad-data/backgrounds/energia.jpg',
+        accent: '#F38F82'
       },
       {
         mood: 'Serenidad',
         text: 'La serenidad te recuerda que ninguna tormenta dura para siempre.',
-        colors: ['#6FDBFF', '#56B5F5']
+        image: 'frasesdeserenidad-data/backgrounds/serenidad.jpg',
+        accent: '#7EC6F5'
       }
     ];
 
@@ -133,8 +189,8 @@
 
     function showPhrase(index) {
       const item = phrases[index];
-      screen.style.setProperty('--gradient-start', item.colors[0]);
-      screen.style.setProperty('--gradient-end', item.colors[1]);
+      screen.style.setProperty('--screen-image', `url('${item.image}')`);
+      screen.style.setProperty('--accent', item.accent);
       label.innerHTML = item.mood;
       text.innerHTML = item.text;
 
@@ -151,7 +207,7 @@
     }
 
     nextButton.addEventListener('click', nextPhrase);
-    setInterval(nextPhrase, 6000);
+    setInterval(nextPhrase, 7000);
 
     showPhrase(activeIndex);
     document.getElementById('year').textContent = new Date().getFullYear();
