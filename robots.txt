@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://frases.demotass.com/sitemap.xml
